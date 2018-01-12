@@ -10,8 +10,7 @@ if [ -z $MOVIE_FUN_URL ]; then
 fi
 
 pushd movie-fun-source
-  echo "Running smoke tests for Movie Fun deployed at $MOVIE_FUN_URL"
-  #smoke-tests/bin/test $MOVIE_FUN_URL
+  echo "Running smoke tests for Movie Fun deployed at $MOVIE_FUN_URL"  
   ./mvnw test
 popd
 
