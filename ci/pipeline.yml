@@ -27,7 +27,7 @@ jobs:
   - put: deploy-movie-fun
     params:
       manifest: movie-fun-source/manifest.yml
-      path: package-output/moviefun.jar
+      path: package-output/moviefun.war
 
 
 
