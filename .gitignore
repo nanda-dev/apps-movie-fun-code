@@ -3,3 +3,7 @@ target
 classes
 build
 .idea
+.DS_Store
+.gitignore.swp
+src/.DS_Store
+src/main/.DS_Store
