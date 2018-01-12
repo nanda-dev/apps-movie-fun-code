@@ -4,7 +4,7 @@ resources:
   type: git
   source:
     uri: https://github.com/nanda-dev/apps-movie-fun-code.git
-    branch: master
+    branch: spring-boot
 
 - name: deploy-movie-fun
   type: cf
